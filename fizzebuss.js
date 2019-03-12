@@ -10,3 +10,13 @@
   }
 
 })()
+
+function fucat(n){
+  if(n==1){
+    return 1
+  }else{
+    return n * fucat(n-1)
+  }
+  
+}
+console.log(fucat(3))
